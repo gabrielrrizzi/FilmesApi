@@ -1,0 +1,14 @@
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+
+namespace FilmesApi.Data.Dtos
+{
+    public class ReadEnderecoDto
+    {
+        public int Id { get; set; }
+        public string Logradouro { get; set; }
+        public string Bairro { get; set; }
+        public string Numero { get; set; }
+        public DateTime HoraDaConsulta { get; set; }
+    }
+}
